@@ -31,7 +31,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'pi',
-      host : ['192.168.10.60'],
+      host : ['192.168.20.27'],
       ref  : 'origin/master',
       repo : 'git@github.com:yurivm/mumble.git',
       path : '/home/pi/mumble',
